@@ -1,4 +1,4 @@
-#Métricas de calidad
+**Métricas de calidad**
 
 1. **Cobertura de código:** Esta métrica indica el porcentaje de código que ha sido ejecutado durante las pruebas automatizadas. Una alta cobertura de código sugiere que la mayoría de las áreas del código han sido probadas, lo que reduce la probabilidad de errores no detectados.
 
