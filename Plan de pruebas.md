@@ -45,5 +45,3 @@
 #### 10. Prueba de Precisión de Cálculo:
    - Realizar cálculos que involucren números decimales y operaciones complejas.
    - Verificar que el resultado mostrado tenga la precisión correcta.
-
-Realizar estas pruebas garantizará que la calculadora funcione correctamente y que todas sus funcionalidades estén implementadas adecuadamente. Recuerda realizar pruebas exhaustivas para cubrir todos los casos de uso posibles.
