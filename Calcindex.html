@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Científica</title>
+    <link rel="stylesheet" href="./Despliegues/CSS/calc.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="display" id="display" disabled>
+        <div class="buttons">
+            <button onclick="appendNumber(7)">7</button>
+            <button onclick="appendNumber(8)">8</button>
+            <button onclick="appendNumber(9)">9</button>
+            <button class="operator" onclick="clearDisplay()">C</button>
+            <button onclick="appendNumber(4)">4</button>
+            <button onclick="appendNumber(5)">5</button>
+            <button onclick="appendNumber(6)">6</button>
+            <button class="operator" onclick="appendOperator('/')">÷</button>
+            <button onclick="appendNumber(1)">1</button>
+            <button onclick="appendNumber(2)">2</button>
+            <button onclick="appendNumber(3)">3</button>
+            <button class="operator" onclick="appendOperator('*')">x</button>
+            <button class="zero" onclick="appendNumber(0)">0</button>
+            <button onclick="appendOperator('.')">.</button>
+            <button class="operator" onclick="appendOperator('-')">-</button>
+            <button class="operator" onclick="appendOperator('+')">+</button>
+            <button class="operator" onclick="calculate()">=</button>
+            <button class="operator" onclick="calculateSqrt()">√</button>
+            <button class="operator" onclick="calculateSquare()">x²</button>
+            <button class="operator" onclick="calculatePower()">^</button>
+        </div>
+    </div>
+
+    <script src="./Despliegues/Script/calc.js"></script>
+</body>
+</html>
